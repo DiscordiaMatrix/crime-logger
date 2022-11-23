@@ -13,19 +13,23 @@ const routes: Array<RouteRecordRaw> = [
     children: [
       {
         path: '',
-        redirect: '/tabs/home'
+        redirect: 'home'
       },
       {
         path: 'home',
         component: () => import('@/views/Home.vue')
       },
       {
-        path: 'crimeslist',
+        path: 'crimes-list',
         component: () => import('@/views/C_List.vue')
       },
       {
-        path: 'crimesmap',
+        path: 'crimes-map',
         component: () => import('@/views/C_Map.vue')
+      },
+      {
+        path: 'crimes-list/:id',
+        component: () => import('@/views/C_Detail.vue')
       }
     ]
   }
