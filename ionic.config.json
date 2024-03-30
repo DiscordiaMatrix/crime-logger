@@ -1,8 +1,0 @@
-{
-  "name": "Crime Logger",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "vue",
-  "id": "6ecf8630"
-}
