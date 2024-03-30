@@ -1,6 +1,0 @@
-{
-	"appId": "io.ionic.starter",
-	"appName": "Crime Logger",
-	"webDir": "dist",
-	"bundledWebRuntime": false
-}
