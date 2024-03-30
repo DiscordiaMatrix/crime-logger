@@ -1,0 +1,7 @@
+{
+  "name": "Crime Logger",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}

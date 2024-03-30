@@ -1,7 +1,7 @@
 {
-  "name": "ionic-app-base",
+  "name": "crime-logger",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,6 +12,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@capacitor/android": "^5.7.4",
+    "@capacitor/app": "5.0.7",
+    "@capacitor/core": "5.7.4",
+    "@capacitor/haptics": "5.0.7",
+    "@capacitor/keyboard": "5.0.8",
+    "@capacitor/status-bar": "5.0.7",
+    "@ionic/pwa-elements": "^3.2.2",
     "@ionic/vue": "^7.0.0",
     "@ionic/vue-router": "^7.0.0",
     "ionicons": "^7.0.0",
@@ -19,6 +26,7 @@
     "vue-router": "^4.2.0"
   },
   "devDependencies": {
+    "@capacitor/cli": "5.7.4",
     "@vitejs/plugin-legacy": "^5.0.0",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/eslint-config-typescript": "^12.0.0",
@@ -32,5 +40,6 @@
     "vite": "^5.0.0",
     "vitest": "^0.34.6",
     "vue-tsc": "^1.0.24"
-  }
+  },
+  "description": "An Ionic project"
 }
