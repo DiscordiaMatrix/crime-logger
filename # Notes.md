@@ -4,7 +4,7 @@
 - **Address**: The address of the crime. This may be a street name, a cross street, or a general area. Ability to drop a pin on the map to log in addition to manual entry.
 - **Date**: The date of the crime.
 - **Time**: The time of the crime, if known. Best guess is okay.
-- **Classification**: The category of crime comitted.
+- **Classification**: The category of crime committed.
 - **Tags**: The keywords that best describe the crime, for filtering purposes.
 - **Description**: A description of the crime. This may be a narrative, a list of items stolen, potential motives, methods used, or a list of suspects.
 - **Suspects**: A list of suspects, if known. This may be a list of names, a list of vehicles, or a list of license plates.
