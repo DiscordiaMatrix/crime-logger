@@ -14,6 +14,7 @@
 - **Image**: An image of the crime, if available. This may be a photo of the crime scene, a photo of the suspect, or a photo of the victim.
 - **Case handled by LE?**: If LE have taken on the case. [Yes, No, Unknown, Dropped, Solved]
 
+
 ### Feedback:
 - Autocompletion? If so, what fields?
 - Have newer user's entries be filtered by a higher-up for verification
@@ -36,3 +37,11 @@
 - Need to be able to see trends via suspects
 - Create documentation on Best Practices for data entry
   - Web archive of news articles (if this can be done automatically, great)
+
+
+## User Stories
+- **User Authentication**: Users can login through a link sent to their linked email address. Accounts are created by the Admin only.
+- **User Roles**: Admin, Member, Contributor
+- **Admin**: Can create accounts, verify entries, and delete entries.
+- **Member**: Can create entries and verify entries.
+- **Contributor**: Can create entries that need to be verified by a Member or Admin.
