@@ -11,8 +11,11 @@
           <ion-title size="large">Home</ion-title>
         </ion-toolbar>
       </ion-header>
-
-      <ExploreContainer name="Home page" />
+      <div class="ion-padding">
+        <p>
+          Welcome to the Home page
+        </p>
+      </div>
     </ion-content>
   </ion-page>
 </template>

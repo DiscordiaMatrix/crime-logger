@@ -1,37 +1,30 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
-import Tabs from '@/components/Tabs.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: '/home'
+    redirect: '/home',
   },
   {
-    path: '/tabs/',
-    component: Tabs,
-    children: [
-      {
-        path: '',
-        redirect: '/home'
-      },
-      {
-        path: 'home',
-        component: () => import('@/views/PageHome.vue')
-      },
-      {
-        path: 'map',
-        component: () => import('@/views/PageMap.vue')
-      },
-      {
-        path: 'list',
-        component: () => import('@/views/PageList.vue')
-      }
-    ]
+    path: '/home',
+    component: () => import('@/views/PageHome.vue'),
+    meta: { name: 'home', icon: 'home', label: 'Home', href: '/home' }
+  },
+  {
+    path: '/map',
+    component: () => import('@/views/PageMap.vue'),
+    meta: { name: 'map', icon: 'map', label: 'Map', href: '/map' }
+  },
+  {
+    path: '/list',
+    component: () => import('@/views/PageList.vue'),
+    meta: { name: 'list', icon: 'list', label: 'List', href: '/list' }
   },
   {
     path: '/settings',
-    component: () => import('@/views/PageSettings.vue')
+    component: () => import('@/views/PageSettings.vue'),
+    meta: { name: 'settings', icon: 'cog', label: 'Settings', href: '/settings' }
   },
 ]
 

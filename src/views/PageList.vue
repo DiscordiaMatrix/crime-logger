@@ -11,8 +11,6 @@
           <ion-title size="large">List View</ion-title>
         </ion-toolbar>
       </ion-header>
-
-      <ExploreContainer name="List View page" />
     </ion-content>
   </ion-page>
 </template>

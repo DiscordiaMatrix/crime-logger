@@ -11,8 +11,6 @@
           <ion-title size="large">Map View</ion-title>
         </ion-toolbar>
       </ion-header>
-
-      <ExploreContainer name="Map View page" />
     </ion-content>
   </ion-page>
 </template>

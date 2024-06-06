@@ -1,4 +1,7 @@
 import { createApp } from 'vue'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import App from './App.vue'
 import router from './router';
 
@@ -27,10 +30,14 @@ import './theme/variables.css';
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
 defineCustomElements(window);
 
+// Add all solid icons to the library so you can use it in your page
+library.add(fas)
+
 const app = createApp(App)
   .use(IonicVue)
   .use(router);
-  
+
 router.isReady().then(() => {
+  app.component('font-awesome-icon', FontAwesomeIcon);
   app.mount('#app');
 });
