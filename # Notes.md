@@ -12,7 +12,8 @@
 - **Victims**: A list of victims, if known. This may be a list of names, or other contact or descriptive data.
 - **Links**: Any links to news articles or other source of information about the crime.
 - **Image**: An image of the crime, if available. This may be a photo of the crime scene, a photo of the suspect, or a photo of the victim.
-- **Case handled by LE?**: If LE have taken on the case. [Yes, No, Unknown, Dropped, Solved]
+- **Case handled by Emergency Services?**: [LE, FD, EMT, custom] 
+  - If LE have taken on the case: [Yes, No, Unknown, Dropped, Solved]
 
 
 ### Feedback:
@@ -30,13 +31,15 @@
 - Overlay with COMPSTAT data?
 
 
-## General Notes
+## General Notes and To-Dos
 - Need to focus on trends of specific types of crimes, not just general crime
 - Need to be able to filter by time, location, and type of crime
 - Need to be able to see trends in crime over time
 - Need to be able to see trends via suspects
 - Create documentation on Best Practices for data entry
   - Web archive of news articles (if this can be done automatically, great)
+- Need to be able to export data
+- Need to be able to import data
 
 
 ## User Stories
