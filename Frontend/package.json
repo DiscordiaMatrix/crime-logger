@@ -24,6 +24,7 @@
     "@ionic/pwa-elements": "^3.2.2",
     "@ionic/vue": "^7.0.0",
     "@ionic/vue-router": "^7.0.0",
+    "@supabase/supabase-js": "^2.43.4",
     "ionicons": "^7.0.0",
     "vue": "^3.3.0",
     "vue-router": "^4.2.0"
