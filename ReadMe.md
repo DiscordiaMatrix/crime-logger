@@ -14,9 +14,13 @@ To get started with this project, you will need to set up SupaBase as the backen
 
 Before running the app, make sure to customize the variables in the `.env` file according to your needs. These variables include:
 
-- `VUE_APP_MAPBOX_ACCESS_TOKEN`: Your Mapbox access token for displaying maps.
-- `VUE_APP_DEFAULT_LOCATION`: The default location to center the map on.
-- `VUE_APP_DEFAULT_ZOOM`: The default zoom level for the map.
+- `VITE_APP_SUPABASE_URL`: The SupaBase API URL.
+- `VITE_APP_SUPABASE_ANON_KEY`: The SupaBase API Key.
+- `VITE_APP_NAME`: The name of the app.
+- `VITE_APP_URL`: The URL of the app.
+- `VITE_APP_MAPBOX_ACCESS_TOKEN`: Your Mapbox access token for displaying maps.
+- `VITE_APP_DEFAULT_LOCATION`: The default location to center the map on.
+- `VITE_APP_DEFAULT_ZOOM`: The default zoom level for the map.
 
 ## Installation
 

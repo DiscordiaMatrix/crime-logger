@@ -1,5 +1,4 @@
 import { createApp } from 'vue'
-import { createClient } from '@supabase/supabase-js'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -31,8 +30,9 @@ import './theme/variables.css';
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
 defineCustomElements(window);
 
-// Add all solid icons to the library so you can use it in your page
-library.add(fas)
+/* Add all solid icons to the library
+NOTE: Update this later to only import specific icons */
+library.add(fas);
 
 const app = createApp(App)
   .use(IonicVue)
